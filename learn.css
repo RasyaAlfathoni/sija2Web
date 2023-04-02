@@ -1,0 +1,183 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  cursor: default;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.medsos {
+  padding: 10px 0;
+  background-color: #148f77;
+}
+.medsos li {
+  display: inline-block;
+  color: #fff;
+}
+.container h1 {
+  font-family: Courier;
+  font-size: 35px;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+header h1 {
+  float: left;
+  padding: 15px 0;
+  color: #148f77;
+}
+header ul {
+  cursor: pointer;
+  float: right;
+}
+header ul li {
+  display: inline-block;
+  cursor: pointer;
+}
+header ul li a {
+  padding: 25px 20px;
+  display: inline-block;
+  color: #148f77;
+  cursor: pointer;
+}
+header ul li a:hover {
+  background-color: #148f77;
+  color: #fff;
+  transition: 0.3s;
+  transition-delay: 0.1s;
+  border-radius: 30px 0 25px 0;
+  cursor: pointer;
+}
+img {
+  height: 300px;
+  width: 280px;
+  border-radius: 3px;
+}
+
+.learn p {
+  font-size: 1.3rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 15px;
+  visibility: hidden;
+  opacity: 0;
+}
+.learn {
+  display: flex;
+  margin-left: 160px;
+}
+.card {
+  height: 310px;
+  margin: 26px;
+  box-shadow: 5px 5px 20px black;
+  overflow: hidden;
+}
+.intro {
+  height: 70px;
+  width: 280px;
+  padding: 6px;
+  box-sizing: border-box;
+  position: absolute;
+  background: rgb(27, 27, 27, 0.5);
+  color: whitesmoke;
+  bottom: 80px;
+}
+.intro h1 {
+  margin: 10px;
+  font-size: 40px;
+  font-family: courier;
+}
+
+.judul {
+  font-size: 3rem;
+  font-family: courier;
+  color: #148f77;
+  text-align: center;
+  margin-bottom: 45px;
+  background-color: whitesmoke;
+}
+.card:hover {
+  cursor: pointer;
+}
+.card:hover .intro {
+  height: 150px;
+  bottom: 80px;
+  background: rgba(0, 0, 0, 0.7);
+  transition: 0.3s;
+}
+.card:hover p {
+  opacity: 1;
+  visibility: visible;
+}
+.card:hover img {
+  transform: scale(0.9);
+}
+.learn2 p {
+  font-size: 1.3rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 15px;
+  visibility: hidden;
+  opacity: 0;
+}
+.learn2 {
+  display: flex;
+  margin-left: 315px;
+}
+.card2 {
+  height: 310px;
+  margin: 26px;
+  box-shadow: 5px 5px 20px black;
+  overflow: hidden;
+}
+.intro2 {
+  height: 70px;
+  width: 280px;
+  padding: 6px;
+  box-sizing: border-box;
+  position: absolute;
+  background: rgb(27, 27, 27, 0.5);
+  color: whitesmoke;
+  bottom: 80px;
+  margin-bottom: -360px;
+}
+.intro2 h2 {
+  margin: 10px;
+  font-size: 40px;
+  font-family: courier;
+}
+.intro2 h2 span {
+  font-size: 40px;
+  font-family: courier;
+}
+.card2:hover {
+  cursor: pointer;
+}
+.card2:hover .intro2 {
+  height: 130px;
+  bottom: 80px;
+  background: rgba(0, 0, 0, 0.7);
+  transition: 0.3s;
+}
+.card2:hover p {
+  opacity: 1;
+  visibility: visible;
+}
+.card2:hover img {
+  transform: scale(0.9);
+}
+footer {
+  padding: 10px 0;
+  margin-top: 30px;
+  background-color: #148f77;
+  height: 5px;
+}
